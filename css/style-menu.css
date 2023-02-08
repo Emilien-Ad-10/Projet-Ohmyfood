@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&family=Shrikhand&display=swap');
+
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", "sans-serif";
+    background: #ffffff;
+    height: auto;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+/* HEADER */
+.conteneur-i-logo{
+    display: flex;
+}
+
+.icone-retour{
+    width: 35%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.fa-arrow-left{
+    font-size: 30px;
+    color: #222;
+    margin-left: 100%;
+}
+
+.logo{
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo .desktop-logo{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.logo .responsive-logo, .responsive-mobile{
+    display: none;
+}
+
+.menu-illustration{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+}
+.la-carte{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.main-footer{
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+    background: #f2f2f2;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    position: absolute;
+    z-index: 1;
+}
+
+/* MAIN */
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* TITRE + ANIMATION COEUR */
+h1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+h1 span{
+    font-size: 2.5rem;
+    margin-left: 35px;
+    font-family: "Shrikhand";
+}
+
+.fa-heart{
+    font-size: 50px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1a1a1a;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ffffff, #ffffff, #FF79DA, #99E2D0);
+    transition: background-position ease-out .6s;
+    background-size: 270%;
+    cursor: pointer;
+    margin-right: 70px;
+}
+
+.fa-heart:active{
+    background-position: -70%;
+    -webkit-text-stroke-color: #ffffff;
+    font-size: 50px;
+
+}
+
+/* MENU */
+.grille-menu{
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CLASSE GENERAL */
+h2{
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.plat {
+    width: 100%;
+    min-width: 70%;
+}
+
+.plat h3 {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.info-plat {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 15px;
+}
+  
+.accompagnement {
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+  
+.prix {
+    font-weight: bold;
+    margin-left: 10px;
+}
+  
+.menu-validation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    transition: all 1.5s;
+    background-color: #99e2d0;
+}
+.menu-validation .fa-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    color: #99e2d0;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    transition: 1s;
+    transform: rotate(0deg);
+}
+
+
+
+/* ---------------- */
+
+/* ENTREES */
+.grille-entrées{
+    width: 100%;
+    padding-left: 30px;
+    height: auto;
+    background: #f2f2f2;
+}
+
+.border-h2-entrées{
+    width: 60px;
+    height: 5px;
+    margin-bottom: 15px;
+    border-top: 6px solid #99E2D0;
+}
+
+.entrée-1,
+.entrée-2,
+.entrée-3,
+.entrée-4{
+    width: 95%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+    cursor: pointer;
+    animation: apparition 1s;
+    animation-fill-mode: both;
+}
+
+.entrée-1 {
+    animation-delay: .5s;
+}
+
+.entrée-2 {
+    animation-delay: 1s;
+}
+
+.entrée-3 {
+    animation-delay: 1.5s;
+}
+
+.entrée-4 {
+    animation-delay: 2s;
+}
+
+.entrée-1:active .menu-validation,
+.entrée-2:active .menu-validation,
+.entrée-3:active .menu-validation,
+.entrée-4:active .menu-validation {
+    width: 30%;
+    transition: all 1.5s;
+}
+.entrée-1:active .fa-check,
+.entrée-2:active .fa-check,
+.entrée-3:active .fa-check,
+.entrée-4:active .fa-check {
+    visibility: visible;
+    transition: 1.2s;
+    transform: rotate(720deg);
+}
+  
+/* PLATS */
+.grille-plats{
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    padding-left: 30px;
+}
+
+.border-h2-plats{
+    width: 60px;
+    height: 5px;
+    margin-bottom: 15px;
+    border-top: 6px solid #99E2D0;
+}
+
+.plat-de-résistance-1,
+.plat-de-résistance-2,
+.plat-de-résistance-3{
+    width: 95%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+    cursor: pointer;
+    animation: apparition 1s;
+    animation-fill-mode: both;
+}
+
+.plat-de-résistance-1 {
+    animation-delay: 2.5s;
+}
+
+.plat-de-résistance-2 {
+    animation-delay: 3s;
+}
+
+.plat-de-résistance-3 {
+    animation-delay: 3.5s;
+}
+  
+.plat-de-résistance-1:active .menu-validation,
+.plat-de-résistance-2:active .menu-validation,
+.plat-de-résistance-3:active .menu-validation{
+    width: 30%;
+    transition: all 1.5s;
+}
+.plat-de-résistance-1:active .fa-check,
+.plat-de-résistance-2:active .fa-check,
+.plat-de-résistance-3:active .fa-check {
+    visibility: visible;
+    transition: 1.2s;
+    transform: rotate(720deg);
+}
+
+/* DESSERTS */
+.grille-desserts{
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    padding-left: 30px;
+}
+
+.border-h2-desserts{
+    width: 60px;
+    height: 5px;
+    margin-bottom: 15px;
+    border-top: 6px solid #99E2D0;
+}
+
+.dessert-1,
+.dessert-2,
+.dessert-3 {
+    width: 95%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+    cursor: pointer;
+    animation: apparition 1s;
+    animation-fill-mode: both;
+}
+
+.dessert-1 {
+    animation-delay: 4s;    
+}
+
+.dessert-2 {
+    animation-delay: 4.5s;
+}
+
+.dessert-3 {
+    animation-delay: 5s;
+}
+  
+.dessert-1:active .menu-validation,
+.dessert-2:active .menu-validation,
+.dessert-3:active .menu-validation{
+    width: 30%;
+    transition: all 1.5s;
+}
+.dessert-1:active .fa-check,
+.dessert-2:active .fa-check,
+.dessert-3:active .fa-check {
+    visibility: visible;
+    transition: 1.2s;
+    transform: rotate(720deg);
+}
+
+/* BTN COMMANDE */
+.btn-commande{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 300px;
+    height: 70px;
+    border-radius: 40px;
+    box-shadow: 0 3px 12px #8d8d8d;
+    margin: 60px 0 60px 0;
+    background-image: linear-gradient(to top left, #9356DC, #FF79DA);
+    border: none;
+    cursor: pointer;
+}
+
+.btn span{
+    color: #f1f1f1;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.btn:hover{
+    box-shadow: 0 3px 12px #1a1a1a;
+    opacity: 0.8;
+}
+
+/* FOOTER */
+footer{
+    background: #222;
+    width: 100%;
+    height: 200px;
+}
+
+.h3-footer{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-family: 'Shrikhand';
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+.footer-info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-info i{
+    margin-right: 20px;
+}
+
+.footer-info a{
+    margin-left: 70px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* KEYFRAMES APPARITION MENU */
+ 
+@keyframes apparation {
+    0% {
+      opacity: 0;
+      transform: translateY(10%);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes apparition {
+    from {
+      opacity: 0%;
+      visibility: hidden;
+    }
+    to {
+      opacity: 100%;
+    }
+} 
+
+/* KEYFRAMES ICONE VALIDATION */
+
+@keyframes ouverture {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  @keyframes fermeture {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-720deg);
+    }
+  }
+  

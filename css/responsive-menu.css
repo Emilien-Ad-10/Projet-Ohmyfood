@@ -1,0 +1,159 @@
+@media screen and (max-width: 974px) {
+    /* FOOTER */
+    .h3-footer{
+        padding-top: 20px;
+    }
+    .footer-info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-info a{
+        margin-bottom: 5px;
+        margin-left: 35px;
+    }
+    .footer-info a:nth-child(1){
+        margin-left: 40px;
+    }
+    .footer-info i{
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    
+    .footer-info :nth-child(2){
+        margin-left: 35px;
+    }
+    .footer-info :nth-child(3){
+        margin-left: 35px;
+    }
+    .footer-info :nth-child(4){
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    /* HEADER */
+    .logo .desktop-logo{
+        display: none;
+    }
+    .logo .responsive-logo{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 550px) {
+    /* HEADER */
+    .fa-arrow-left{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .la-carte{
+        height: 350px;
+    }
+    
+    /* MAIN */
+    h1 span{
+        font-size: 2rem;
+    }
+    .fa-heart{
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .fa-heart:active{
+        font-size: 30px;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+    .border-h2{
+        width: 50px;
+        border-top: 4px solid #99E2D0;
+    }
+
+}
+
+/* RESPONSIVE MOBILE */
+@media screen and (max-width: 375px) {
+    /* HEADER */
+    .fa-arrow-left{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .responsive-mobile{
+        display: flex;
+        padding: 15px 0 15px 0;
+    }
+    .logo .responsive-logo{
+        display: none;
+    }
+    .la-carte{
+        height: 260px;
+    }
+    
+    /* MAIN */
+    h1{
+        margin-left: 5px;
+    }
+    h1 span{
+        margin-left: 5px;
+    }
+    h1 span{
+        font-size: 1.6rem;
+    }
+    .fa-heart{
+        font-size: 30px;
+        margin-top: 0;
+        margin-right: 20px;
+    }
+    .fa-heart:active{
+        font-size: 33px;
+    }
+
+    h2{
+        font-size: 17px;
+    }
+    .border-h2-entrées{
+        width: 40px;
+        height: 3px;
+        margin-bottom: 15px;
+        border-top: 2px solid #99E2D0;
+    }
+    .border-h2-plats{
+        width: 40px;
+        height: 3px;
+        margin-bottom: 15px;
+        border-top: 2px solid #99E2D0;
+    }
+    .border-h2-desserts{
+        width: 40px;
+        height: 3px;
+        margin-bottom: 15px;
+        border-top: 2px solid #99E2D0;
+    }
+
+    .grille-entrées{
+        padding-left: 5px;
+    }
+
+    .grille-plats{
+        padding-left: 5px;
+    }
+    .grille-desserts{
+        padding-left: 5px;
+    }
+    
+    /* FOOTER */
+    .h3-footer{
+        font-size: 1.5rem;
+        text-align: left;
+        margin-top: 0;
+        padding-top: 20px;
+        margin-left: 40px;
+        font-weight: 100;
+    }
+    .footer-info a{
+        margin-bottom: 10px;
+    }
+}

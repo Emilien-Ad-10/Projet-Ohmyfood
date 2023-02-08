@@ -1,0 +1,203 @@
+@media screen and (max-width: 974px) {
+    .dégustation{
+        margin-top: 20px;
+    }
+
+    .footer-info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-info a{
+        margin-bottom: 5px;
+    }
+    .footer-info i{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .footer-info :nth-child(2){
+        margin-left: 65px;
+    }
+    .footer-info :nth-child(3){
+        margin-left: 35px;
+    }
+    .footer-info :nth-child(4){
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    
+    /* PRESENTATION */
+    .btn_header{
+        width: 238px;
+        height: 50px;
+    }
+    .btn_header span{
+        font-size: 1rem;
+    }
+    
+    /* FONCTIONNEMENT */
+    .fonctionnement h2{
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .h2-fonctionnement{
+        margin-left: -20px;
+    }
+
+    .choix{
+        width: 90%;
+        justify-content: flex-start;
+    }
+    .fa-mobile-screen-button{
+        margin-left: 7%;
+    }
+    .choix span{
+        width: 100%;
+        text-align: center;
+    }
+
+    .composition{
+        width: 90%;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .fa-list-ul{
+        margin-left: 7%;
+    }
+    .composition span{
+        width: 100%;
+        text-align: center;
+        margin-left: -21px;
+    }
+    
+    .dégustation{
+        width: 90%;
+        justify-content: flex-start;
+    }
+    .fa-store{
+        margin-left: 7%;
+    }
+    .dégustation span{
+        width: 100%;
+        text-align: center;
+        margin-left: -17px;
+    }
+
+    /* RESTAURANTS */
+    .restaurants h2{
+        text-align: left;
+        padding: 0 30px;
+    }
+    .grille_restaurants{
+        flex-direction: column;
+    }
+    .la-palette-du-gout{
+        width: 90%;
+        margin-bottom: 3%;
+    }
+    .la-note-enchantée{
+        width: 90%;
+        margin-left: 0;
+    }
+    .a-la-francaise{
+        width: 90%;
+        margin-top: 3%;
+    }
+    .le-délice-des-sens{
+        width: 90%;
+        margin-left: 0;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .logo .desktop-logo{
+        display: none;
+    }
+    
+    .logo .responsive-logo{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .h2-fonctionnement{
+        margin-left: -25px;
+    }
+}
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 375px) {
+    
+    /* LOCALISATION */
+    .fa-solid{
+        font-size: 1rem;
+    }
+    .localisation span{
+        font-size: 1.1rem;
+    }
+
+    /* PRESENTATION */
+    h2{
+        margin-bottom: 10px;
+    }
+
+    .btn_header{
+        width: 238px;
+        height: 55px;
+    }
+    .btn_header span{
+        font-size: 1rem;
+    }
+
+    /* FONCTIONNEMENT */
+    .fonctionnement h2{
+        text-align: left;
+        margin-left: -30px;
+        margin-bottom: 30px;
+    }
+    .étapes{
+        flex-direction: column;
+    }
+    .étapes div{
+        margin-bottom: 20px;
+    }
+    .première, .deuxième, .troisième{
+        margin-top: 20px;
+    }
+
+    .choix .fa-mobile-screen-button{
+        margin-left: 14%;
+    }
+    .composition .fa-list-ul{
+        margin-left: 14%;
+    }
+    .dégustation .fa-store{
+        margin-left: 14%;
+    }
+    .choix span{
+        text-align: left;
+    }
+    .composition span{
+        text-align: left;
+        margin-left: 0;
+    }
+    .dégustation span{
+        text-align: left;
+        margin-left: 0;
+    }
+
+    /* FOOTER */
+    .h3-footer{
+        font-size: 1.5rem;
+        text-align: left;
+        padding-top: 15px;
+        margin-left: 40px;
+        font-weight: 100;
+    }
+    .footer-info a{
+        margin-bottom: 10px;
+    }
+}
