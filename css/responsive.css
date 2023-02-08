@@ -15,7 +15,7 @@
         margin-right: 10px;
     }
     .footer-info :nth-child(2){
-        margin-left: 65px;
+        margin-left: 25px;
     }
     .footer-info :nth-child(3){
         margin-left: 35px;
@@ -49,7 +49,7 @@
         width: 90%;
         justify-content: flex-start;
     }
-    .fa-mobile-screen-button{
+    .bx-mobile{
         margin-left: 7%;
     }
     .choix span{
@@ -62,7 +62,7 @@
         justify-content: flex-start;
         margin-top: 20px;
     }
-    .fa-list-ul{
+    .bx-list-ul{
         margin-left: 7%;
     }
     .composition span{
@@ -75,7 +75,7 @@
         width: 90%;
         justify-content: flex-start;
     }
-    .fa-store{
+    .bxs-store{
         margin-left: 7%;
     }
     .dégustation span{
@@ -132,7 +132,7 @@
 @media screen and (max-width: 375px) {
     
     /* LOCALISATION */
-    .fa-solid{
+    .bxs-map{
         font-size: 1rem;
     }
     .localisation span{
@@ -168,13 +168,13 @@
         margin-top: 20px;
     }
 
-    .choix .fa-mobile-screen-button{
+    .choix .bx-mobile{
         margin-left: 14%;
     }
-    .composition .fa-list-ul{
+    .composition .bx-list-ul{
         margin-left: 14%;
     }
-    .dégustation .fa-store{
+    .dégustation .bxs-store{
         margin-left: 14%;
     }
     .choix span{

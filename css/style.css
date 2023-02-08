@@ -115,8 +115,8 @@ body{
     align-items: center;
 }
 
-.fa-solid{
-    font-size: 1.4rem;
+.bxs-map{
+    font-size: 1.7rem;
     margin: 0 20px 0 -30px;
 }
 
@@ -222,8 +222,10 @@ h2{
     left: -15px;
 }
 
-.fa-mobile-screen-button{
+.bx-mobile{
+    font-size: 30px;
     color: #868282;
+    margin-right: 15px;
 }
 
 .choix:hover{
@@ -232,7 +234,7 @@ h2{
     box-shadow: 0 3px 10px #555454;
 }
 
-.choix:hover .fa-mobile-screen-button{
+.choix:hover .bx-mobile{
     color: #9356DC;
 }
 .choix:hover .première{
@@ -268,8 +270,10 @@ h2{
     left: -15px;
 }
 
-.fa-list-ul{
+.bx-list-ul{
+    font-size: 30px;
     color: #868282;
+    margin-right: 15px;
 }
 
 .composition:hover{
@@ -278,7 +282,7 @@ h2{
     box-shadow: 0 3px 10px #555454;
 }
 
-.composition:hover .fa-list-ul{
+.composition:hover .bx-list-ul{
     color: #9356DC;
 }
 .composition:hover .deuxième{
@@ -315,8 +319,10 @@ h2{
     left: -15px;
 }
 
-.fa-store{
+.bxs-store{
+    font-size: 30px;
     color: #868282;
+    margin-right: 15px;
 }
 
 .dégustation:hover{
@@ -325,7 +331,7 @@ h2{
     box-shadow: 0 3px 10px #555454;
 }
 
-.dégustation:hover .fa-store{
+.dégustation:hover .bxs-store{
     color: #9356DC;
 }
 .dégustation:hover .troisième{
@@ -548,7 +554,7 @@ footer{
 }
 
 .footer-info a{
-    margin-left: 70px;
+    margin-left: 33px;
     color: #ffffff;
     text-decoration: none;
 }
