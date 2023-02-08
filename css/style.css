@@ -502,7 +502,7 @@ h3 span{
     margin-top: 5px;
 }
 
- .fa-heart{
+ .bxs-heart{
     position: absolute;
     right: 15px;
     bottom: 20px;
@@ -518,7 +518,7 @@ h3 span{
     cursor: pointer;
 }
 
-.fa-heart:active{
+.bxs-heart:active{
     background-position: -70%;
     -webkit-text-stroke-color: #ffffff;
     font-size: 27px;
