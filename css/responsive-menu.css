@@ -11,9 +11,6 @@
         margin-bottom: 5px;
         margin-left: 35px;
     }
-    .footer-info a:nth-child(1){
-        margin-left: 40px;
-    }
     .footer-info i{
         font-size: 15px;
         margin-right: 5px;
@@ -43,7 +40,7 @@
 }
 @media screen and (max-width: 550px) {
     /* HEADER */
-    .fa-arrow-left{
+    .bx-share{
         font-size: 20px;
         margin-top: 5px;
     }
@@ -55,11 +52,11 @@
     h1 span{
         font-size: 2rem;
     }
-    .fa-heart{
+    .bxs-heart{
         font-size: 30px;
         margin-top: 5px;
     }
-    .fa-heart:active{
+    .bxs-heart:active{
         font-size: 30px;
     }
     
@@ -76,7 +73,7 @@
 /* RESPONSIVE MOBILE */
 @media screen and (max-width: 375px) {
     /* HEADER */
-    .fa-arrow-left{
+    .bx-share{
         font-size: 20px;
         margin-top: 5px;
         margin-left: 20px;
@@ -102,12 +99,12 @@
     h1 span{
         font-size: 1.6rem;
     }
-    .fa-heart{
+    .bxs-heart{
         font-size: 30px;
         margin-top: 0;
         margin-right: 20px;
     }
-    .fa-heart:active{
+    .bxs-heart:active{
         font-size: 33px;
     }
 

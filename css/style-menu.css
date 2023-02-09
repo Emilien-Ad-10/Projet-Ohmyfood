@@ -92,7 +92,7 @@ h1 span{
     font-family: "Shrikhand";
 }
 
-.fa-heart{
+.bxs-heart{
     font-size: 50px;
     color: transparent;
     -webkit-text-stroke-width: 1px;
@@ -106,7 +106,7 @@ h1 span{
     margin-right: 70px;
 }
 
-.fa-heart:active{
+.bxs-heart:active{
     background-position: -70%;
     -webkit-text-stroke-color: #ffffff;
     font-size: 50px;
@@ -175,7 +175,7 @@ h2{
     transition: all 1.5s;
     background-color: #99e2d0;
 }
-.menu-validation .fa-check {
+.menu-validation .bx-check {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -249,10 +249,10 @@ h2{
     width: 30%;
     transition: all 1.5s;
 }
-.entrée-1:active .fa-check,
-.entrée-2:active .fa-check,
-.entrée-3:active .fa-check,
-.entrée-4:active .fa-check {
+.entrée-1:active .bx-check,
+.entrée-2:active .bx-check,
+.entrée-3:active .bx-check,
+.entrée-4:active .bx-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -307,9 +307,9 @@ h2{
     width: 30%;
     transition: all 1.5s;
 }
-.plat-de-résistance-1:active .fa-check,
-.plat-de-résistance-2:active .fa-check,
-.plat-de-résistance-3:active .fa-check {
+.plat-de-résistance-1:active .bx-check,
+.plat-de-résistance-2:active .bx-check,
+.plat-de-résistance-3:active .bx-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -364,9 +364,9 @@ h2{
     width: 30%;
     transition: all 1.5s;
 }
-.dessert-1:active .fa-check,
-.dessert-2:active .fa-check,
-.dessert-3:active .fa-check {
+.dessert-1:active .bx-check,
+.dessert-2:active .bx-check,
+.dessert-3:active .bx-check {
     visibility: visible;
     transition: 1.2s;
     transform: rotate(720deg);
@@ -430,7 +430,6 @@ footer{
 }
 
 .footer-info a{
-    margin-left: 70px;
     color: #ffffff;
     text-decoration: none;
 }
